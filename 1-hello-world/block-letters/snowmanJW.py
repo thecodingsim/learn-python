@@ -1,0 +1,20 @@
+# instagram: @thecodingsim_
+# Fun Fact: I like to 3D model 👩🏻‍💻
+
+print("      *     *                    ")
+print("                      *          ")
+print("*         *                 *    ")
+print("     *        ^   *     *        ")
+print("           HHHHHHH        *      ")
+print(" *         HHHHHHH               ")
+print("     *   HHHHHHHHHHH    *     *  ")
+print("         *   o o   *             ")
+print("        *     ^     *            ")
+print("  *       *   u    *         *   ")
+print("         SSS * * SSS             ")
+print("         * SSSSSSSS *            ")
+print("       *      O   SS  *          ")
+print("      *       O    S   *         ")
+print("      *       O        *         ")
+print("       *              *          ")
+print("           *   *   *             ")
