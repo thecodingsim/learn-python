@@ -2,7 +2,7 @@
 # Joanne Wenceslao
 
 # set weight to any number of lbs to find price of shipping.
-weight = 100 #change this number
+weight = 41.5 #change this number
 
 # Ground Shipping 🚚 (Weight of Package * Price per Pound	+ Flat Charge)
 if weight <= 2:
@@ -31,5 +31,8 @@ else:
   cost_drone = (weight * 14.25)
 
 print("Drone Shipping: $", cost_drone)
+
+#Run the program and check these examples:
+#What is the cheapest method of shipping a 4.8 pound package and how much would it cost?
 
 
