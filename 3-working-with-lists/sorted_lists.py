@@ -1,4 +1,4 @@
-#SORTING LISTS IN NUMERICAL OR ALPHABETICAL ORDER, 
+#SORTING LISTS I | IN NUMERICAL OR ALPHABETICAL ORDER, 
 # .sort(reverse=True) will sort list in a reverse order, descending
 
 # Checkpoint 1 & 2
@@ -26,3 +26,13 @@ print(cities)
 
 #result: ['Rome', 'Paris', 'New York', 'Los Angeles', 'London']
 
+
+
+# SORTING LIST II | BUILT IN FUNCTION
+
+games = ["Portal", "Minecraft", "Pacman", "Tetris", "The Sims", "Pokemon"]
+
+# Your code below:
+games_sorted = sorted(games)
+print(games)
+print(games_sorted)
