@@ -1,7 +1,8 @@
+
+#SLICING LISTS I
 suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
 
 beginning = suitcase[0:4]
-
 
 # Your code below: 
 print(beginning)
@@ -16,6 +17,26 @@ beginning = suitcase[0:2]
 middle = suitcase[2:4]
 print(middle)
 #['pants', 'pants']
+
+
+#SLICING LISTS II
+
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+# Your code below: 
+last_two_elements = suitcase[-2:]
+print(last_two_elements)
+
+#RESULT
+#['pajamas', 'books']
+
+#create a new list, containing ALL, BUT the last three elements
+slice_off_last_three = suitcase[:-3]
+print(slice_off_last_three)
+#RESULT
+# ['shirt', 'shirt', 'pants']
+
+
 
 
 
