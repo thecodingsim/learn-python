@@ -1,0 +1,23 @@
+python_topics = ["variables", "control flow", "loops", "modules", "classes"]
+
+#Your code below: 
+# length of list
+length = len(python_topics)
+print(length)
+# implement a condition
+index = 0
+# loop
+while index < length:
+  print("I am learning about", (python_topics[index]))
+  # we need to make sure our loop can stop once the index value is no longer smaller than the length value. 
+  #This will help us access the next value of the ingredients list on the next iteration.
+  index += 1
+  
+  #RESULT:
+  5
+#I am learning about variables
+#I am learning about control flow
+#I am learning about loops
+#I am learning about modules
+#I am learning about classes
+  
