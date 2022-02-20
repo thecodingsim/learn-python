@@ -1,0 +1,30 @@
+# # While Loop Walkthrough
+# count = 0
+# print("Starting While Loop")
+# while count <= 3:
+#   # Loop Body
+#   # Print if the condition is still true
+#   print("Loop Iteration - count <= 3 is still true")
+#   # Print the current value of count 
+#   print("Count is currently " + str(count))
+#   # Increment count
+#   count += 1
+#   print(" ----- ")
+# print("While Loop ended")
+
+# # Your code below: 
+# counts down from 10 to 0
+
+countdown = 10
+print("Starting coundown for blast off...")
+while countdown >=0:
+  print(countdown)
+  # LOOP BODY
+  # check loop iteration
+  print("Loop Iteration - count >= 10 is still true")
+  # current value
+  print("Count is currently " + str(countdown))
+  # Increment count
+  countdown -= 1
+  print("-----")
+print("We have liftoff!")
