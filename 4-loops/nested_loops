@@ -1,0 +1,19 @@
+# different flavors of ice cream
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+scoops_sold = 0
+# loop through sales data.
+for location in sales_data:
+  print(location)
+#Within our sales_data loop, nest a secondary loop #to go through each location sublist element and add the element value to scoops_sold.
+
+#By the end, you should have the sum of every number in the sales_data nested list.
+  for element in location:
+    scoops_sold += element
+print(scoops_sold)
+
+
+#RESULT
+#[12, 17, 22]
+#[2, 10, 3]
+#[5, 12, 13]
+#96
