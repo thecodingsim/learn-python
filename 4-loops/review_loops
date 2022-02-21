@@ -1,0 +1,44 @@
+# Your code below:
+single_digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+squares = []
+cubes = []
+for digit in single_digits:
+  print(digit)
+  # append the squared value of each element of single digits to the list squares.
+  squares.append(digit**2)
+  print(squares)
+  # append the cubed value of each element of single digits to the list of cubes.
+  cubes.append(digit**3)
+  print(cubes)
+
+  # RESULT:
+# 0
+# [0]
+# [0]
+# 1
+# [0, 1]
+# [0, 1]
+# 2
+# [0, 1, 4]
+# [0, 1, 8]
+# 3
+# [0, 1, 4, 9]
+# [0, 1, 8, 27]
+# 4
+# [0, 1, 4, 9, 16]
+# [0, 1, 8, 27, 64]
+# 5
+# [0, 1, 4, 9, 16, 25]
+# [0, 1, 8, 27, 64, 125]
+# 6
+# [0, 1, 4, 9, 16, 25, 36]
+# [0, 1, 8, 27, 64, 125, 216]
+# 7
+# [0, 1, 4, 9, 16, 25, 36, 49]
+# [0, 1, 8, 27, 64, 125, 216, 343]
+# 8
+# [0, 1, 4, 9, 16, 25, 36, 49, 64]
+# [0, 1, 8, 27, 64, 125, 216, 343, 512]
+# 9
+# [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+# [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
