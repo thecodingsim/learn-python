@@ -1,0 +1,8 @@
+# LIST COMPREHENSION
+grades = [90, 88, 62, 76, 74, 89, 48, 57]
+#since each element represents a grade, it makes sense to call it grade.
+scaled_grades = [grade + 10 for grade in grades]
+print(scaled_grades)
+
+#RESULT
+#[100, 98, 72, 86, 84, 99, 58, 67]
